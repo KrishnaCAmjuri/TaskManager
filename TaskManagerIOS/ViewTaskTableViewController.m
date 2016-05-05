@@ -213,11 +213,6 @@
             [request setEntity:entity];
             [request setFetchBatchSize:20];
             
-//            AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-//            NSManagedObjectModel *model = [appDelegate managedObjectModel];
-//            
-//            NSDictionary *dict = @{@"DUE_DATE" : self.managedTaskObject.dueDate};//[[NSDictionary alloc] initWithObjectsAndKeys:self.managedTaskObject.dueDate, @"DUE_DATE", nil];
-//            NSFetchRequest *request = [model fetchRequestFromTemplateWithName:@"tasksDueSooner" substitutionVariables:dict];
             [request setPredicate:[NSPredicate predicateWithFormat:@"dueDate < %@",self.managedTaskObject.dueDate]];
             
             NSError *error;

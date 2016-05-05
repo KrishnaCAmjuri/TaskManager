@@ -58,6 +58,7 @@
 		676E6E881CCCEC88002F3238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		676E6E8E1CCCEF13002F3238 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		676E6E8F1CCCEF13002F3238 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		678174C71CDB476000BB40E2 /* TaskManagerIOS 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "TaskManagerIOS 2.xcdatamodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -413,9 +414,10 @@
 		676E6E801CCCEC88002F3238 /* TaskManagerIOS.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				678174C71CDB476000BB40E2 /* TaskManagerIOS 2.xcdatamodel */,
 				676E6E811CCCEC88002F3238 /* TaskManagerIOS.xcdatamodel */,
 			);
-			currentVersion = 676E6E811CCCEC88002F3238 /* TaskManagerIOS.xcdatamodel */;
+			currentVersion = 678174C71CDB476000BB40E2 /* TaskManagerIOS 2.xcdatamodel */;
 			path = TaskManagerIOS.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
